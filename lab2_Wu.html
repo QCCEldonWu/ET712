@@ -81,7 +81,16 @@
             console.log(`ERROR! ${password} is NOT at the right format`)
         }
 
-        console.log()
+        console.log("---------------EXERCISE-----------------")
+        let value = prompt("Enter a string or a number: ")
+        checkinput = isNaN(parseInt(value))
+        if(checkinput === true){
+            console.log(`${value} is a string.`)
+        }else if(parseInt(value) < 0){
+            console.log(`${value} is a negative number`)
+        }else{
+            console.log(`${value} is a positive number`)
+        }
 
     </script>
 </body>
