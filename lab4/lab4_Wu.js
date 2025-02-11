@@ -60,3 +60,18 @@ function checkTemp(temperature){
 let t = 100
 let temp_result = checkTemp(t)
 console.log(`Is the the temperature greater than 75? ${temp_result}`)
+
+console.log("\n-------------Exercise------------")
+function checkName(){
+    let counter = 0
+    let name = prompt("Enter a name: ")
+    while(counter = 0){
+        if(name = ""){
+            name = prompt("You forgot to enter a name. Enter a name again: ")
+        }else if(isNaN(name)){
+            name = prompt(`${name} is invalid! Enter a name again: `)
+        }else{
+            console.log(`Welcome ${name.toUpperCase()} to the class!`)
+        }
+    }
+}
