@@ -103,7 +103,6 @@ function checkName(){
     while(counter == 0){
         if(name.length == 0){
             name = prompt("You forgot to enter a name. Enter a name again: ")
-            console.log("MT")
         }else if(!isNaN(name)){
             name = prompt(`${name} is invalid! Enter a name again: `)
         }else{
