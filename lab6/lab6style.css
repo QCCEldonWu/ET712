@@ -1,5 +1,5 @@
 *{box-sizing:border-box;}/*preserve the 100% width of the screen*/
-img{width: 100%;}
+img{width: 100%; display: block;}
 .header{
     background-color: aqua;
     display: flex;
@@ -69,4 +69,64 @@ intro h1{
 }
 intro p{
     font-size: 1.2em;
+}
+/*CARDS*/
+.subtitle{
+    text-align: center;
+}
+.cardscontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card, .verticalcard{
+    height: auto;
+    width: 350px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1% 2%;
+}
+.card img{
+    height: 200px;
+}
+.card p{
+    padding: 1em;
+}
+.card a{
+    display: block;
+    background-color: blue;
+    padding: 1em;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: none;
+}
+.card a:hover{
+    opacity: 0.6;
+    font-size: 1.1em;
+}
+.verticalcard{
+    position: relative;
+}
+.verticalcard h3{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    color:aliceblue;
+    font-size: 2em;
+
+}
+.verticalcard:hover{
+    transform: translate(20px);
+}
+
+.footer{
+    margin-top: 2em;
+    text-align: center;
+    background-color: blue;
+    color:azure;
+    padding: 3em;
 }
