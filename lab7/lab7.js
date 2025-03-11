@@ -68,14 +68,13 @@ ps1.onmouseout = function(){
 }
 let ps2 = document.querySelector(".ps2")
 ps2.addEventListener("click", function(){
-    ps2.computedStyleMap.fontsize = "25px"
-    ps2.computedStyleMap.backgroundColor = `olive`
+    ps2.className = "ps3"
 })
 let divs2 = document.querySelector(".divs2")
 divs2.addEventListener("click", function(){
-    div2.computedStyleMap.backgroundColor = `indigo`
+    divs2.className = "divs4"
 })
 let divs3 = document.querySelector(".divs3")
-divs3.onkeydown = function(){
-
-}
+divs3.addEventListener("keydown", function(){
+    divs3.className = "divs5"
+})
