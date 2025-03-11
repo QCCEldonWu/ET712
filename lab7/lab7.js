@@ -60,3 +60,22 @@ let ex9paragraph = document.querySelector(".ex9paragraph")
 inputex9.onkeydown = function(){
     ex9paragraph.innerHTML= `a key was pressed`
 }
+
+//Exercise
+let ps1 = document.querySelector(".ps1")
+ps1.onmouseout = function(){
+    ps1.innerHTML = "ELDON WU"
+}
+let ps2 = document.querySelector(".ps2")
+ps2.addEventListener("click", function(){
+    ps2.computedStyleMap.fontsize = "25px"
+    ps2.computedStyleMap.backgroundColor = `olive`
+})
+let divs2 = document.querySelector(".divs2")
+divs2.addEventListener("click", function(){
+    div2.computedStyleMap.backgroundColor = `indigo`
+})
+let divs3 = document.querySelector(".divs3")
+divs3.onkeydown = function(){
+
+}
