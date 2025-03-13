@@ -1,0 +1,66 @@
+.btnpressme{
+    display: block;
+    padding: 1em 2em;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+.bthactive{
+    background-color: crimson;
+    font-weight: bolder;
+}
+#fruitlist li{
+    list-style: none;
+    border-bottom: 1px solid lightgoldenrodyellow;
+    width: 200px;
+    padding: 1em 2em;
+    background-color: beige;
+}
+#fruitlist li:hover{
+    background-color: crimson;
+    color: aliceblue;
+}
+img{width: 100%; display: block;}
+.card{
+    width: 200px;
+}
+.linkreadmore{
+    display: block;
+    background-color: crimson;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    color: aliceblue;
+}
+.linkreadmore:hover{
+    background-color: darkblue;
+}
+.modalwindow{
+    background-color: rgba(100,100,100,0.6);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+.modalcontent{
+    height: 70%;
+    width: 60%;
+    margin: 10% auto;
+    background-color: wheat;
+}
+
+.modalheader{
+    background-color: lightgray;
+    font-size: 2em;
+    padding: 0.5em;
+}
+.close{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    font-size: 2em;
+    text-align: center;
+}
+.close:hover{
+    color: crimson;
+}
