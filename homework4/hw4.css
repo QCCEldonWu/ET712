@@ -1,0 +1,90 @@
+*{box-sizing: border-box;}
+#myform{
+    width: 400px;
+    margin: 3em auto;
+    background-color: lightcyan;
+    padding: 2em;
+}
+.greeting{
+    width: 400px;
+    margin: auto;
+    display: none;
+}
+.greetuser{
+    color: darkblue;
+    font-weight: bolder;
+}
+.btnsubmit{
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    padding: 0.5em;
+    margin-top: 2em;
+    border: none;
+    border-radius: 5px;
+}
+.btnsubmit:hover{
+    background-color: crimson;
+}
+.formcontrol{
+    margin: 2em;
+}
+label{
+    display: inline-block;
+    width: 30%;
+    color: darkblue;
+}
+input{
+    display: inline-block;
+    width: 70%;
+    color: darkblue;
+    padding: 0.5em;
+}
+.errormsg1, .errormsg2{
+    color: crimson;
+    font-size: 0.8em;
+}
+.btnsubmit:disabled{
+    background-color: darkgray;
+    cursor: not-allowed;
+    color: darkblue;
+}
+
+img{width: 100%; display: block;}
+.maincontainer, .gallerycontainer{
+    width: 500px;
+    margin: auto;
+}
+.maincontainer{
+    position: relative;
+    z-index: 0;
+}
+.gallerycontainer{
+    position: relative;
+    z-index: 1;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+.galleryimg{
+    display: inline-block;
+}
+.btnright, .btnleft{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    font-size: 1.5em;
+    padding: 0.5em;
+    border: none;
+    background-color: rgba(200,200,200,0.6);
+}
+.btnright{
+    right: 0%;
+}
+.btnleft{
+    left: 0%;
+}
+.btnright:hover, .btnleft:hover{
+    background-color: rgba(200,200,200,0.9);
+    color: crimson;
+}
