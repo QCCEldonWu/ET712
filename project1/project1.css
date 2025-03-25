@@ -1,0 +1,22 @@
+.welcome{
+    text-align: center;
+    padding: 1em;
+}
+.bluebtn{
+    background-color: deepskyblue;
+}
+.pinkbtn{
+    background-color: pink;
+}
+.greenbtn{
+    background-color: greenyellow;
+}
+.tombtn{
+    background-color: tomato;
+}
+.bluebtn:hover, .pinkbtn:hover, .tombtn:hover{
+    color:aliceblue;
+}
+.greenbtn:hover{
+    color: orange;
+}
