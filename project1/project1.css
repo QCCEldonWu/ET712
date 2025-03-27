@@ -1,6 +1,5 @@
-.welcome{
+.welcome, .body{
     text-align: center;
-    padding: 1em;
 }
 .bluebtn{
     background-color: deepskyblue;

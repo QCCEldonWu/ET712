@@ -1,18 +1,24 @@
 let welcome = document.querySelector(".welcome")
+let body = document.querySelector(".body")
 const bluebtn = document.querySelector(".bluebtn")
 const pinkbtn = document.querySelector(".pinkbtn")
 const greenbtn = document.querySelector(".greenbtn")
 const tombtn = document.querySelector(".tombtn")
 
 bluebtn.addEventListener("click",function(){
-    welcome.style.backgroundColor = "deepskyblue"
+    welcome.style.display = "none"
+    document.body.style.backgroundColor = "deepskyblue"
+
 })
 pinkbtn.addEventListener("click",function(){
-    welcome.style.backgroundColor = "pink"
+    welcome.style.display = "none"
+    document.body.style.backgroundColor = "pink"
 })
 greenbtn.addEventListener("click",function(){
-    welcome.style.backgroundColor = "greenyellow"
+    welcome.style.display = "none"
+    document.body.style.backgroundColor = "greenyellow"
 })
 tombtn.addEventListener("click",function(){
-    welcome.style.backgroundColor = "tomato"
+    welcome.style.display = "none"
+    document.body.style.backgroundColor = "tomato"
 })
