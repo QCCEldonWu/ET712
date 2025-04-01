@@ -15,16 +15,52 @@
         <button class="greenbtn">Green/Yellow</button>
         <button class="tombtn">Tomato</button>
     </header>
-    <section class="shapes">
-        <h2>There are two shapes</h2>
-        <div class="square">Square</div>
-        <div class="circle">Circle</div>
+
+    <section class="chellgne">
+        <h2 id="favColor" class="favColor"></h2>
+        <p id="challenge" class="challenge">Before you are allowed to eat your dinner, you must complete three "Learning Exercises", below is your first.</p>
     </section>
-    <section>
-        <h2>Animals</h2>
+    <section class="schapes">
+        <h1>Sort the Shapes!</h1>
+        <div class="game-container">
+            <div class="shapes">
+                <div class="shape circle" draggable="true" id="circle"></div>
+                <div class="shape square" draggable="true" id="square"></div>
+                <div class="shape triangle" draggable="true" id="triangle"></div>
+            </div>
+            <div class="drop-zones">
+                <div class="drop-zone" data-shape="circle">Circle</div>
+                <div class="drop-zone" data-shape="square">Square</div>
+                <div class="drop-zone" data-shape="triangle">Triangle</div>
+            </div>
+        </div>
+        <button class="nxtbtn">Next</button>
     </section>
-    <section>
-        <h2>Numbers</h2>
+    <section class="animaals">
+        <h1>Find the Zebra!</h1>
+        <div class="adiv">
+            <img src="images/Daniell_Quagga.jpg" class="quagga" id="quagga">
+            <p></p>
+        </div>
+        <div class="adiv">
+            <img src="images/istockphoto-1491701351-612x612.jpg" class="dog" id="dog">
+        </div>
+        <div class="adiv">
+            <img src="images/Okapi_1901.jpg" class="okapi" id="okapi">
+        </div>
+        <div class="adiv">
+            <img src="images/upload_2018-8-17_14-20-35.jpeg" class="zebra" id="zebra">
+        </div><br>
+    </section>
+    <section class="numbahz">
+        <form class="myform" id="myform">
+            <h1 id="equation"></h1>
+            <section class="formcontrol">
+                <label for="answer">x = </label>
+                <input type="answer" id="answer" placeholder="Enter the Answer...">
+            </section>
+            <button type="submit" class="btnsubmit">Submit</button>
+        </form>
     </section>
     <script src="project1.js"></script>
 </body>
