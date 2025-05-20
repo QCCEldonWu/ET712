@@ -10,6 +10,7 @@ const Card = function(props){
 
     const handleAddToCart = () => {
         addToCart({
+            id: props.id,
             name: props.title,
             price: Number(props.description),
             quantity: quantity
